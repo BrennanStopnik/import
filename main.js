@@ -3,8 +3,11 @@
 import { add } from "./notMain.js";
 import { add2 } from "./notMain.js";
 import { subtract } from "./notMain.js";
+import multiply from "./notMain.js";
 
 add(5,6);
 console.log(add2(5,6));
 
-console.log(`Subtracting b from a is: ${subtract(6,5)}`)
+console.log(`Subtracting b from a is: ${subtract(6,5)}`);
+
+console.log(`Product of a * b is: ${multiply(6,5)}`)
