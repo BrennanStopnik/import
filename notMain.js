@@ -17,3 +17,13 @@ export let subtract = (a,b) => {
     let dif = a - b;
     return dif;
 }
+
+// Another way to do the same export
+    // You can only do this once in the file.
+    // You don't gain anything from doing it this way
+    
+let multiply = (a,b) => {
+    let prod = a*b;
+    return prod;
+}
+export default multiply;
